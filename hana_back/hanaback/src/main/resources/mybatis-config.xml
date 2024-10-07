@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias alias="ExTableDto" type="com.hanaback.hanaback.dto.ExTableDto"/>
+        <typeAlias alias="NewsDto" type="com.hanaback.hanaback.dto.NewsDto"/>
+        <typeAlias alias="SentimentDto" type="com.hanaback.hanaback.dto.SentimentDto"/>
+        <typeAlias alias="WordSentimentDto" type="com.hanaback.hanaback.dto.WordSentimentDto"/>
+        <typeAlias alias="HrTableDto" type="com.hanaback.hanaback.dto.HrTableDto"/>
+        <typeAlias alias="TExTableDto" type="com.hanaback.hanaback.dto.TExTableDto"/>
+    </typeAliases>
+</configuration>

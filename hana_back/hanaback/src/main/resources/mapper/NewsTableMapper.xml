@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="NewsTableDto">
+    <select id="findAll" resultType="com.hanaback.hanaback.dto.NewsDto">
+        SELECT
+            state,
+            url,
+            title,
+            image_url,
+            content,
+            news_summary,
+            result,
+            news_analysis
+        FROM news_table
+    </select>
+    <!-- URL로 뉴스 데이터를 조회하는 쿼리 -->
+    <select id="findByUrl" parameterType="string" resultType="com.hanaback.hanaback.dto.NewsDto">
+        SELECT
+            state,
+            url,
+            title,
+            image_url,
+            content,
+            news_summary,
+            result,
+            news_analysis
+        FROM news_table
+        WHERE url = #{url}
+    </select>
+    <select id="findByState" parameterType="string" resultType="com.hanaback.hanaback.dto.NewsDto">
+        SELECT
+            state,
+            url,
+            title,
+            image_url,
+            content,
+            news_summary,
+            result,
+            news_analysis
+        FROM news_table
+        WHERE state = #{state}
+    </select>
+</mapper>

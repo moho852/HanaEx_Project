@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hanaback.hanaback.repository.WExTableRepository">
+    <!-- 모든 데이터를 가져오는 쿼리 -->
+    <select id="findAll" resultType="com.hanaback.hanaback.dto.WExTableDto">
+        SELECT
+            my_row_id AS myRowId,
+            currency,
+            cash_buy AS cashBuy,
+            cash_buy_spread AS cashBuySpread,
+            cash_sell AS cashSell,
+            cash_sell_spread AS cashSellSpread,
+            remit_send AS remitSend,
+            remit_receive AS remitReceive,
+            foreign_check_sell AS foreignCheckSell,
+            base_rate AS baseRate,
+            exchange_commission AS exchangeCommission,
+            non_convertible_rate AS nonConvertibleRate,
+            reference_date AS referenceDate,
+            announcement_round AS announcementRound,
+            announcement_time AS announcementTime
+        FROM world_ex_table
+    </select>
+</mapper>

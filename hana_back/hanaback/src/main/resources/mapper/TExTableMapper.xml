@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="TExTableDto">
+    <select id="findTodayByState" resultType="TExTableDto">
+        SELECT
+            state,
+            period,
+            time,
+            exchange_rate,
+--             cash_buy,
+--             cash_sell,
+            remit_send,
+            remit_receive,
+            compared_to_previous,
+            date
+        FROM t_ex_table
+    </select>
+</mapper>
