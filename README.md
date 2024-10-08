@@ -10,24 +10,16 @@
 - 무료환전 전쟁 <b>외환에 대한 관심도 함께 증가</b>
 - 외환시장 구조 개선 발표 외환거래 시강 규제완화
 
-![PPT 프로젝트 개요-3](https://github.com/user-attachments/assets/99340fdd-f743-46bd-8f23-8960b4874f6e)
-- 청소년들의 <b>좋지 않은 금융 실태</b>를 나타낸 다양한 기사들
-- 금융 및 경제 교육도 <b>미흡</b>한 상황
+  
+![PPT_기획의도2](https://github.com/user-attachments/assets/c52e14fa-7df5-4289-96f7-116b08f25bd7)
+- 금융권 생성형 AI에 대한 관심도 증가
+- 금융권 생성형 수요 증가 예상, 시중 5대은행 생성형 AI 활용한 서비스 준비중
 
 ---
-![PPT 프로젝트 개요-1](https://github.com/user-attachments/assets/ac352bc7-23a1-47e0-b055-43e983c27d1b)
-- <b>하나만영의 효과</b>
-- <b>가계부 작성</b>을 통해 충동적인 구매를 억제하고 경제적 스트레스를 줄임
-- <b>금융 및 경제 교육</b>을 통해 금융 지식 함양 및 의사결정 능력을 향상
-- 습관을 형성하는데 기여하고 성취감을 증대시킬 수 있는 <b>챌린지 시스템</b> 도입
-
-
-### 1-2. 기대 효과
-![PPT 프로젝트 개요-2](https://github.com/user-attachments/assets/811fde43-528b-4cce-bef1-cdd167868a07)
-- 하나만영을 통해 <b>건강한 금융 습관</b>을 형성하고
-<b>금융 경제 지식 함양</b> 가능
-- 기업은 <b>미래 고객을 확보</b>하고 <b>기업 이미지 제고</b>가 가능함
-
+### 1-2. 서비스 소개
+![PPT_개발서비스](https://github.com/user-attachments/assets/a6162e8b-d096-4809-997f-170e91fefc4d)
+- 정보제공부터 외환투자까지 하나에
+- 누구나 쉽게 시작하는 외환거래서비스 HANAEX
 
 ### 1-3. 개발 일정
 ![PPT 프로젝트 일정](https://github.com/user-attachments/assets/cb054b41-86aa-435c-89c2-6a09ded244cb)
