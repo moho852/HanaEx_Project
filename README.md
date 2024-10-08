@@ -34,13 +34,10 @@
 - <b>DB :</b> Azure Mysql / Oracle Cloud OracleDB활용
 - <b>외부 API:</b> OpenAI / HuggingFace / CoolSMS
 
-### 2-3. 활용 기술
-![PPT 프로젝트 설계](https://github.com/user-attachments/assets/64c03468-926c-43d6-b09a-164566d80374)
-- 스프링 스케쥴러: 적금 챌린지 및 자동 이체 적용
-- 크롤링 및 GPT: 뉴스 크롤링 후 쉬운 금융 뉴스 요약 및 단어 추출
-- 인증 및 보안: Spring Security와 JWT를 활용한 토큰 발급 및 로그인
-- WebSocket: 웹소켓 기반의 실시간 채팅 구현
-- Naver CLOVA OCR: 학생증의 학교명 자동 인식 및 추출
+### 2-3. 서비스 아키텍쳐
+![PPT_서비스아키텍쳐](https://github.com/user-attachments/assets/41d93eaa-d21b-429f-bdd6-68d19f4f2474)
+- 스프링 스케쥴러: 예약결제 체결에 활용
+- 크롤링 및 GPT: 뉴스와 환율 데이터 클롤링 / 환율예측 / 뉴스 요약 및 감성분석
 
 ### 3. 발표 ppt
 ![PPT Q A](https://github.com/user-attachments/assets/014044bc-5f72-4ed1-b84c-e10802059f8c)
