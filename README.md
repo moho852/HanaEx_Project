@@ -1,7 +1,8 @@
 # HanaEx(Hana Easy Foreign Exchange)
 #### 하나금융티아이 채용연계형 교육 최종프로젝트
 #### 정보제공부터 외환투자까지 하나에 누구나 쉽고 간편하게 즐기는 외환 거래 서비스 HanaEx
-![hanaex_1](https://github.com/user-attachments/assets/19253dcd-65ea-4431-8b49-a2b6a10c649a)
+[PPT_표지.pdf](https://github.com/user-attachments/files/17289247/PPT_.pdf)
+
 
 # 1. 프로젝트 개요
 ### 1-1. 기획 배경
@@ -39,12 +40,22 @@
 - 스프링 스케쥴러: 예약결제 체결에 활용
 - 크롤링 및 GPT: 뉴스와 환율 데이터 클롤링 / 환율예측 / 뉴스 요약 및 감성분석
 
+# 3. 특화기술
+### 3-1. 뉴스요약 및 분석
+[PPT_특화기술1.pdf](https://github.com/user-attachments/files/17289258/PPT_.1.pdf)
+- 프롬프트 엔진이어링 논문 참고
+- 결과를 비즈니스에 맞게 일정한 형식으로 JSON으로 반환
+  
+### 3-2. 환율예측
+[PPT_특화기술2.pdf](https://github.com/user-attachments/files/17289260/PPT_.2.pdf)
+- 외환 리포트, 환율, 금리, DXY, 유가 데이터를 수집
+- Assistant의 File Search 기능을 활용하여 프롬프트와 함께 AI에게 제공
+- 참고 데이터 및 예측 이유를 응답하여 외환 예측결과에 대한 신뢰도 상승
+
 ### 3. 발표 ppt
-![PPT Q A](https://github.com/user-attachments/assets/014044bc-5f72-4ed1-b84c-e10802059f8c)
-[장규은_하나에서만나Young.pdf](https://github.com/user-attachments/files/17272034/_.Young.pdf)
+![양진안_하나EX-정보제공부터 외환투자까지 하나에 누구나 쉽게 시작할 수 있는 외환거래 서비스 .pptx](https://github.com/user-attachments/files/17289753/_.EX-.pptx)
 
 ### 4. 시연 동영상
-<a href="">![image](https://github.com/user-attachments/assets/faf51107-1a56-40a9-9449-b77e983a6738)</a><br/>
 
 # 4. 본인 소개
 | 구분           | 내용                       | 비고                                       |
