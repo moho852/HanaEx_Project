@@ -21,39 +21,18 @@
 - 정보제공부터 외환투자까지 하나에
 - 누구나 쉽게 시작하는 외환거래서비스 HANAEX
 
-### 1-3. 개발 일정
-![PPT 프로젝트 일정](https://github.com/user-attachments/assets/cb054b41-86aa-435c-89c2-6a09ded244cb)
-<b>개발 수행 기간: 2024.09.02 ~ 2024.10.17</b>
-
 # 2. 프로젝트 설계
-### 2-1. 주요 기능
-![PPT 주요 기능](https://github.com/user-attachments/assets/dc04523e-3021-48ac-b2cc-b2d7401e00b9)
-### 챌린지를 기반으로 금융 습관을 형성하고 금융 경제 지식 함양을 목표
-
-#### 챌린지
-- 오늘의 퀴즈: 금융 경제 관련 퀴즈를 풀며 지식 함양하는 챌린지
-- 하나타로: 금융 운을 확인할 수 있는 타로 챌린지
-- 용돈 조르기: 부모님의 챌린지를 받아 용돈을 받을 수 있는 챌린지
-- 적금 챌린지: 구매하고 싶은 물품을 위해 돈을 모을 수 있는 챌린지
-- 가계부 챌린지: 하루 단위로 가계부와 소비 계획을 작성할 수 있는 챌린지
-
-#### 소비 인사이트 및 금융 트랜드
-- 소비 레포트: 자신의 소비 내역과 동향을 전체적으로 확인할 수 있는 레포트
-- 쉬운 금융 뉴스: 어려운 금융 경제 뉴스와 관련 단어들을 쉽게 요약
-
-#### 커뮤니케이션
-- 채팅: 챌린지 공유와 간편 송금이 가능한 채팅
-
-#### 그 외
-- 랭킹: 학교별, 지역별, 나이별 챌린지 성공 현황을 랭킹화
-
+### 2-1. 사용기술
+![PPT_사용기술](https://github.com/user-attachments/assets/e047423a-ff54-4672-a71f-2601d977831f)
+- 프론트엔드는 React 및 React Library를 활용해 개발
+- Spring Boot를 활용해 Back-end Api 서버 구축
 
 ### 2-2. 시스템 아키텍처
-![PPT 시스템 아키텍처](https://github.com/user-attachments/assets/56a3d053-7f79-4db3-a153-d7fc670347ec)
-- <b>하나만영:</b> Google Cloud 가상머신 배포 / Azure MySQL 활용
-- <b>하나은행:</b> Google Cloud 가상머신 배포 / Oracle Cloud 오라클 활용
-- <b>외부 API:</b> OpenAI와 Naver Open API 활용
-- <b>도메인:</b> [www.hanamanyoung.life](http://www.hanamanyoung.life/) 
+![PPT_시스템아키텍처](https://github.com/user-attachments/assets/cf227ce2-9f52-45a8-be04-43a6382edc5e)
+- <b>Front-end:</b> Google Cloud 가상머신 배포 
+- <b>Back-end:</b> Google Cloud 가상머신 배포
+- <b>DB :</b> Azure Mysql / Oracle Cloud OracleDB활용
+- <b>외부 API:</b> OpenAI / HuggingFace / CoolSMS
 
 ### 2-3. 활용 기술
 ![PPT 프로젝트 설계](https://github.com/user-attachments/assets/64c03468-926c-43d6-b09a-164566d80374)
