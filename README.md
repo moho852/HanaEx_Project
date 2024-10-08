@@ -29,7 +29,7 @@
 - Spring Boot를 활용해 Back-end Api 서버 구축
 
 ### 2-2. 시스템 아키텍처
-![PPT_시스템아키텍처](https://github.com/user-attachments/assets/cf227ce2-9f52-45a8-be04-43a6382edc5e)
+![PPT_시스템아키텍처](https://github.com/user-attachments/assets/92bd87a3-a94b-4274-bfb1-ab8a076dc164)
 - <b>Front-end:</b> Google Cloud 가상머신 배포 
 - <b>Back-end:</b> Google Cloud 가상머신 배포
 - <b>DB :</b> Azure Mysql / Oracle Cloud OracleDB활용
