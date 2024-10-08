@@ -1,14 +1,14 @@
-# 하나에서 만나 Young 
+# HanaEx(Hana Easy Foreign Exchange)
 #### 하나금융티아이 채용연계형 교육 최종프로젝트
-#### 건강한 금융 습관을 위한 청소년 종합 서비스 플랫폼 하나만영
-![PPT intro](https://github.com/user-attachments/assets/b3860d00-66dd-490a-9c04-c09db317e33d)
+#### 정보제공부터 외환투자까지 하나에 누구나 쉽고 간편하게 즐기는 외환 거래 서비스 HanaEx
+![hanaex_1](https://github.com/user-attachments/assets/19253dcd-65ea-4431-8b49-a2b6a10c649a)
 
 # 1. 프로젝트 개요
 ### 1-1. 기획 배경
-![PPT 프로젝트 개요](https://github.com/user-attachments/assets/4fbee396-b3d7-4f5a-b6ca-493ac1013116)
-- 사회 문제로 떠오르는 <b>청소년들의 과소비</b>
-- 높은 명품 구매 비율에 비해 구매 이유는 <b>비합리적</b>
-- 또한 명품을 구매할 여건이 되지 않는 상태
+![PPT_기획의도1](https://github.com/user-attachments/assets/803239ba-c3c8-4b7b-a9a3-e230d8ed633f)
+- 2024년 1분기 원달러 1,400원 돌파 <b>환테크</b> 관심증가
+- 무료환전 전쟁 <b>외환에 대한 관심도 함께 증가</b>
+- 외환시장 구조 개선 발표 외환거래 시강 규제완화
 
 ![PPT 프로젝트 개요-3](https://github.com/user-attachments/assets/99340fdd-f743-46bd-8f23-8960b4874f6e)
 - 청소년들의 <b>좋지 않은 금융 실태</b>를 나타낸 다양한 기사들
