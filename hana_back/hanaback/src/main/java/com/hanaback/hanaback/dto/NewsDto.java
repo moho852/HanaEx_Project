@@ -16,4 +16,5 @@ public class NewsDto {
     private String news_summary; // 뉴스 요약
     private String result; // 뉴스 결과 (예: 'Positive', 'Negative' 등)
     private String news_analysis; // 뉴스 분석
+    private String source;
 }

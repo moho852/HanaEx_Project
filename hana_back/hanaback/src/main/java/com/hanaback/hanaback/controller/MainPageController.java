@@ -49,6 +49,7 @@ public class MainPageController {
 
     @GetMapping("/mainpage/detail")
     public ResponseEntity<Map<String, Object>>  getDetail(@RequestParam("state") String state) {
+        System.out.println("요청도착");
         List<HrTableDto> hrData = mainPageDetailService.getDetailByState();
         List<TExTableDto> todayData = mainPageDetailService.getTodayByState();
         // 변환 작업 수행

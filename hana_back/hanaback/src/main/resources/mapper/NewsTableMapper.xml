@@ -12,7 +12,8 @@
             content,
             news_summary,
             result,
-            news_analysis
+            news_analysis,
+            source
         FROM news_table
     </select>
     <!-- URL로 뉴스 데이터를 조회하는 쿼리 -->
@@ -25,7 +26,8 @@
             content,
             news_summary,
             result,
-            news_analysis
+            news_analysis,
+            source
         FROM news_table
         WHERE url = #{url}
     </select>
@@ -38,7 +40,8 @@
             content,
             news_summary,
             result,
-            news_analysis
+            news_analysis,
+            source
         FROM news_table
         WHERE state = #{state}
     </select>

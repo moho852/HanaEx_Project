@@ -10,5 +10,6 @@
         <typeAlias alias="WordSentimentDto" type="com.hanaback.hanaback.dto.WordSentimentDto"/>
         <typeAlias alias="HrTableDto" type="com.hanaback.hanaback.dto.HrTableDto"/>
         <typeAlias alias="TExTableDto" type="com.hanaback.hanaback.dto.TExTableDto"/>
+        <typeAlias alias="PredictDto" type="com.hanaback.hanaback.dto.PredictDto"/>
     </typeAliases>
 </configuration>

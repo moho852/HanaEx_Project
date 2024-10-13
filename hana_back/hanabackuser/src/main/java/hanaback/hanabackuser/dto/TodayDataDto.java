@@ -1,23 +1,3 @@
-//package hanaback.hanabackuser.dto;
-//
-//import lombok.Getter;
-//import lombok.RequiredArgsConstructor;
-//import lombok.Setter;
-//
-//@Getter
-//@Setter
-//@RequiredArgsConstructor
-//public class TodayDataDto {
-//    private long id;
-//    private String state; // currency_code에 해당
-//    private int period;
-//    private String time;
-//    private double exchangeRate;
-//    private double remitSend;
-//    private double remitReceive;
-//    private double comparedToPrevious;
-//    private String date;
-//}
 package hanaback.hanabackuser.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;

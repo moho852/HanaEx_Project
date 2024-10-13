@@ -23,7 +23,8 @@
             transaction_date,
             transaction_type,
             conclusion_status,
-            reservation_period
+            reservation_period,
+            request_amount
         FROM accounts_tr
         WHERE conclusion_status = 'reserved'
     </select>

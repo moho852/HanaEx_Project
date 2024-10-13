@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="PredictDto">
+
+    <!-- 모든 데이터를 가져오는 쿼리 -->
+    <select id="findAll" resultType="com.hanaback.hanaback.dto.PredictDto">
+        SELECT
+            today_predict AS todayPredict,
+            today_fluctuation_range AS todayFluctuationRange,
+            today_predict_reason AS todayPredictReason,
+            tomorrow_predict AS tomorrowPredict,
+            tomorrow_fluctuation_range AS tomorrowFluctuationRange,
+            tomorrow_predict_reason AS tomorrowPredictReason,
+            week_predict AS weekPredict,
+            week_fluctuation_range AS weekFluctuationRange,
+            week_reason AS weekReason,
+            month_predict AS monthPredict,
+            month_fluctuation_range AS monthFluctuationRange,
+            month_reason AS monthReason,
+            final_analysis AS finalAnalysis
+        FROM predict_result
+    </select>
+
+</mapper>
+

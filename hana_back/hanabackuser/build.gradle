@@ -62,6 +62,7 @@ dependencies {
 
 	// Oracle 클라우드 관련 의존성 (필요한 경우)
 	implementation 'com.oracle.oci.sdk:oci-java-sdk-full:1.34.0'
+	implementation group: 'net.nurigo', name: 'sdk', version: '4.3.0'
 }
 
 tasks.named('test') {
