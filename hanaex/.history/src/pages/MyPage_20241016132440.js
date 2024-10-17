@@ -75,10 +75,10 @@ const MyPage = () => {
     const fetchAccountsData = async () => {
       try {
         const response = await axios.get(
-          "http://34.22.76.4:8082/api/getallaccount"
+          "http://localhost:8082/api/getallaccount"
         );
         const result = await axios.get(
-          "http://34.22.76.4:8081/api/mainpage/detail?state=USD"
+          "http://localhost:8081/api/mainpage/detail?state=USD"
         );
 
         // 오늘 날짜 가져오기
@@ -399,8 +399,9 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="USD"
-                          imageSrc={process.env.PUBLIC_URL +"/image/usd_flag.png"}
-                          amount={formatNumber(accountsData[1].usd)}
+                          imageSrc="/image/usd_flag.png"
+                          // amount={formatNumber(accountsData[1].usd)}
+                          amount={10}
                           exchangeAmount={formatNumber(accountsData[1].usd)}
                           // convertedAmount={formatNumber(
                           //   usdBuyTotal - usdSellTotal
@@ -451,7 +452,7 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="JPY"
-                          imageSrc={process.env.PUBLIC_URL +"/image/jpy_flag.png"}
+                          imageSrc="/image/jpy_flag.png"
                           amount={formatNumber(accountsData[1].jpy)} // accountsData[1].jpy 가 JPY 데이터를 담고 있다고 가정
                           exchangeAmount={formatNumber(jpyNetAmount)}
                           // convertedAmount={formatNumber(
@@ -500,10 +501,8 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="CNY"
-                          imageSrc={process.env.PUBLIC_URL +"/image/china_flag.png"}
-                          // amount={formatNumber(accountsData[1].cny)} 
-                          // accountsData[1].cny 가 CNY 데이터를 담고 있다고 가정
-                          amount={10}
+                          imageSrc="/image/china_flag.png"
+                          amount={formatNumber(accountsData[1].cny)} // accountsData[1].cny 가 CNY 데이터를 담고 있다고 가정
                           exchangeAmount={formatNumber(cnyNetAmount)}
                           // convertedAmount={formatNumber(
                           //   cnyBuyTotal - cnySellTotal
@@ -551,7 +550,7 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="EUR"
-                          imageSrc={ process.env.PUBLIC_URL + "/image/eu_flag.png"} // EUR 국기 이미지 경로
+                          imageSrc="/image/eu_flag.png" // EUR 국기 이미지 경로
                           amount={formatNumber(accountsData[1].eur)} // accountsData[1].eur 가 EUR 데이터를 담고 있다고 가정
                           exchangeAmount={formatNumber(eurNetAmount)}
                           // convertedAmount={formatNumber(
@@ -566,7 +565,7 @@ const MyPage = () => {
                           // }
                           convertedAmount={"14,840"}
                           averageExchangeRate={1484}
-                          currentSellAmount={14840}
+                          currentSellAmount={14,840}
                           expectedExchangeRate={1484}
                           // currentSellAmount={
                           //   eurNetAmount !== 0

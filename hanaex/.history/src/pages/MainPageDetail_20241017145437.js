@@ -579,8 +579,8 @@ const MainPageDetail = () => {
             <Image
               src={
                 isHovered
-                  ? process.env.PUBLIC_URL + "/image/ai_icon_reverse.png"
-                  : process.env.PUBLIC_URL + "/image/ai_icon2.png"
+                  ? "/image/ai_icon_reverse.png"
+                  : "/image/ai_icon2.png"
               }
               boxSize="20px"
               objectFit="cover"
@@ -614,7 +614,7 @@ const MainPageDetail = () => {
               </Text>
               <Image
                 boxSize={"20px"}
-                src={process.env.PUBLIC_URL + `/image/${changeState.toLowerCase()}_flag.png`}
+                src={`/image/${changeState.toLowerCase()}_flag.png`}
               ></Image>
             </div>
             <div>

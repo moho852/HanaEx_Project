@@ -399,7 +399,7 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="USD"
-                          imageSrc={process.env.PUBLIC_URL +"/image/usd_flag.png"}
+                          imageSrc="/image/usd_flag.png"
                           amount={formatNumber(accountsData[1].usd)}
                           exchangeAmount={formatNumber(accountsData[1].usd)}
                           // convertedAmount={formatNumber(
@@ -451,7 +451,7 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="JPY"
-                          imageSrc={process.env.PUBLIC_URL +"/image/jpy_flag.png"}
+                          imageSrc="/image/jpy_flag.png"
                           amount={formatNumber(accountsData[1].jpy)} // accountsData[1].jpy 가 JPY 데이터를 담고 있다고 가정
                           exchangeAmount={formatNumber(jpyNetAmount)}
                           // convertedAmount={formatNumber(
@@ -500,7 +500,7 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="CNY"
-                          imageSrc={process.env.PUBLIC_URL +"/image/china_flag.png"}
+                          imageSrc="/image/china_flag.png"
                           // amount={formatNumber(accountsData[1].cny)} 
                           // accountsData[1].cny 가 CNY 데이터를 담고 있다고 가정
                           amount={10}

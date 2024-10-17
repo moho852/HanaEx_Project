@@ -75,10 +75,10 @@ const MyPage = () => {
     const fetchAccountsData = async () => {
       try {
         const response = await axios.get(
-          "http://34.22.76.4:8082/api/getallaccount"
+          "http://localhost:8082/api/getallaccount"
         );
         const result = await axios.get(
-          "http://34.22.76.4:8081/api/mainpage/detail?state=USD"
+          "http://localhost:8081/api/mainpage/detail?state=USD"
         );
 
         // 오늘 날짜 가져오기
@@ -399,16 +399,14 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="USD"
-                          imageSrc={process.env.PUBLIC_URL +"/image/usd_flag.png"}
+                          imageSrc="/image/usd_flag.png"
                           amount={formatNumber(accountsData[1].usd)}
                           exchangeAmount={formatNumber(accountsData[1].usd)}
                           // convertedAmount={formatNumber(
                           //   usdBuyTotal - usdSellTotal
                           // )}
                           convertedAmount={"6,760"}
-                          averageExchangeRate={1352.00}
-                          currentSellAmount={6705}
-                          expectedExchangeRate={1341.18}
+                          averageExchangeRate={1352}
                           // averageExchangeRate={
                           //   usdNetAmount !== 0
                           //     ? formatNumber(
@@ -451,23 +449,19 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="JPY"
-                          imageSrc={process.env.PUBLIC_URL +"/image/jpy_flag.png"}
+                          imageSrc="/image/jpy_flag.png"
                           amount={formatNumber(accountsData[1].jpy)} // accountsData[1].jpy 가 JPY 데이터를 담고 있다고 가정
                           exchangeAmount={formatNumber(jpyNetAmount)}
-                          // convertedAmount={formatNumber(
-                          //   jpyBuyTotal - jpySellTotal
-                          // )}
-                          // averageExchangeRate={
-                          //   jpyNetAmount !== 0
-                          //     ? formatNumber(
-                          //         (jpyBuyTotal - jpySellTotal) / jpyNetAmount
-                          //       )
-                          //     : "0"
-                          // }
-                          convertedAmount={"9,124"}
-                          averageExchangeRate={912}
-                          currentSellAmount={9124}
-                          expectedExchangeRate={912.48}
+                          convertedAmount={formatNumber(
+                            jpyBuyTotal - jpySellTotal
+                          )}
+                          averageExchangeRate={
+                            jpyNetAmount !== 0
+                              ? formatNumber(
+                                  (jpyBuyTotal - jpySellTotal) / jpyNetAmount
+                                )
+                              : "0"
+                          }
                           // currentSellAmount={
                           //   jpyNetAmount !== 0
                           //     ? formatNumber(
@@ -500,25 +494,19 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="CNY"
-                          imageSrc={process.env.PUBLIC_URL +"/image/china_flag.png"}
-                          // amount={formatNumber(accountsData[1].cny)} 
-                          // accountsData[1].cny 가 CNY 데이터를 담고 있다고 가정
-                          amount={10}
+                          imageSrc="/image/china_flag.png"
+                          amount={formatNumber(accountsData[1].cny)} // accountsData[1].cny 가 CNY 데이터를 담고 있다고 가정
                           exchangeAmount={formatNumber(cnyNetAmount)}
-                          // convertedAmount={formatNumber(
-                          //   cnyBuyTotal - cnySellTotal
-                          // )}
-                          // averageExchangeRate={
-                          //   cnyNetAmount !== 0
-                          //     ? formatNumber(
-                          //         (cnyBuyTotal - cnySellTotal) / cnyNetAmount
-                          //       )
-                          //     : "0"
-                          // }
-                          convertedAmount={"1,921"}
-                          averageExchangeRate={192}
-                          currentSellAmount={1921}
-                          expectedExchangeRate={192}
+                          convertedAmount={formatNumber(
+                            cnyBuyTotal - cnySellTotal
+                          )}
+                          averageExchangeRate={
+                            cnyNetAmount !== 0
+                              ? formatNumber(
+                                  (cnyBuyTotal - cnySellTotal) / cnyNetAmount
+                                )
+                              : "0"
+                          }
                           // currentSellAmount={
                           //   cnyNetAmount !== 0
                           //     ? formatNumber(
@@ -551,23 +539,19 @@ const MyPage = () => {
                       <SwiperSlide>
                         <CurrencyAsset
                           currencyCode="EUR"
-                          imageSrc={ process.env.PUBLIC_URL + "/image/eu_flag.png"} // EUR 국기 이미지 경로
+                          imageSrc="/image/eu_flag.png" // EUR 국기 이미지 경로
                           amount={formatNumber(accountsData[1].eur)} // accountsData[1].eur 가 EUR 데이터를 담고 있다고 가정
                           exchangeAmount={formatNumber(eurNetAmount)}
-                          // convertedAmount={formatNumber(
-                          //   eurBuyTotal - eurSellTotal
-                          // )}
-                          // averageExchangeRate={
-                          //   eurNetAmount !== 0
-                          //     ? formatNumber(
-                          //         (eurBuyTotal - eurSellTotal) / eurNetAmount
-                          //       )
-                          //     : "0"
-                          // }
-                          convertedAmount={"14,840"}
-                          averageExchangeRate={1484}
-                          currentSellAmount={14840}
-                          expectedExchangeRate={1484}
+                          convertedAmount={formatNumber(
+                            eurBuyTotal - eurSellTotal
+                          )}
+                          averageExchangeRate={
+                            eurNetAmount !== 0
+                              ? formatNumber(
+                                  (eurBuyTotal - eurSellTotal) / eurNetAmount
+                                )
+                              : "0"
+                          }
                           // currentSellAmount={
                           //   eurNetAmount !== 0
                           //     ? formatNumber(

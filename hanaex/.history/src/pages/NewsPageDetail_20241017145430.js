@@ -111,7 +111,7 @@ const NewsPageDetail = () => {
       <div className="mb-4">
         <div className="flex">
           <p className="font-semibold text-xl">ChatGPT</p>
-          <Image boxSize={"24px"} src={process.env.PUBLIC_URL +"/image/chat-bot.png"}></Image>
+          <Image boxSize={"24px"} src="/image/chat-bot.png"></Image>
         </div>
 
         <span>

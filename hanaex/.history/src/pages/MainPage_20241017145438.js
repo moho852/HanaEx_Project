@@ -141,7 +141,7 @@ const MainPage = () => {
           </Text>
           <Image
             className="h-[32px] w-[32px]"
-            src={process.env.PUBLIC_URL + "/image/mainpageicon.png"}
+            src="./image/mainpageicon.png"
           ></Image>
         </div>
         <Text fontSize="xl">한 눈에 오늘의 환율 정보를 확인해 보세요.</Text>
@@ -150,7 +150,7 @@ const MainPage = () => {
             {selectedCurrencies.length === 0 ? (
               <Image
                 className="h-[330px] w-[250px]"
-                src={process.env.PUBLIC_URL +"/image/favorite_box.png"}
+                src="/image/favorite_box.png"
                 alt="favorite box"
               />
             ) : (

@@ -64,7 +64,7 @@ const SemanticPage = () => {
           </Text>
           <Image
             className="h-[38px] w-[38px]"
-            src={process.env.PUBLIC_URL +"./image/tmp_imoji.png"}
+            src="./image/tmp_imoji.png"
           ></Image>
         </div>
         <Text fontSize="xl">AI가 분석한 환율을 보세요.</Text>

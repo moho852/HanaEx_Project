@@ -207,7 +207,7 @@ private final AccountTrTableRepository accountTrTableRepository;
     private final ObjectMapper objectMapper;
     private final SmsService smsService; // SmsService 주입
 
-    private static final String MAINPAGE_DETAIL_URL = "http://localhost:8081/api/mainpage/detail?state=USD";
+    private static final String MAINPAGE_DETAIL_URL = "http://34.22.76.4/api/mainpage/detail?state=USD";
 
     LocalDate today = LocalDate.now();
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
